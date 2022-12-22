@@ -1,2 +1,4 @@
 layout: default
 root: /EasyMenuQR
+backgroundColor: #1D1D1D
+textColor: #DFD4D8
