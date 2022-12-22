@@ -2,10 +2,32 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="assets/css/styles.css">
     <title>{{ page.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+      body{
+        font-family: 'Roboto', sans-serif;
+        background-color: {{ site.background_color }};
+        color: {{ site.text_color }};
+        text-align: center;
+      }
+
+      img{
+        width: 10%;
+      }
+      
+      .container{
+        max-width: 1100px;
+        margin: auto;
+      }
+    </style>
   </head>
   <body>
-    {{ content }}
+    <div class="container">
+      {{ content }}
+    </div>
   </body>
 </html>
