@@ -3,11 +3,11 @@
 ## Food
 
 ### Egg Sandwich
-price: $20
-desc: Toasted bread with scrambled eggs 
+Toasted bread with scrambled eggs 
+**$20**
 
 ## Drinks
 
 ### Beer
-price: $10
-img: 
+**$10**
+![Beer](https://img.freepik.com/premium-photo/light-cold-beer-frosty-glass-isolated-white_185709-12.jpg?w=2000)
