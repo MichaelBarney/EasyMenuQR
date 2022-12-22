@@ -7,4 +7,5 @@ body{
   font-family: 'Roboto', sans-serif;
   background-color: {{ site.background_color }};
   color: {{ site.text_color }};
+  text-align: center;
 }
